@@ -1,106 +1,118 @@
 <div align="center">
 
-<!-- 🚀 Animated Banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-  <img src="./banner.svg?v=1" alt="Abhinab Jena — Full Stack Developer" width="100%"/>
-</picture>
+<table width="100%">
+<tr>
+<td width="64%" valign="middle">
+<p><sub>RECRUITER SIGNAL BRIEF · devxd-hub</sub></p>
+<h1>devxd-hub</h1>
+<h2>Frontend or full-stack engineer</h2>
+<p>Building useful software and sharing the work in public.</p>
+<p><strong>● Building and sharing work in public</strong></p>
 
+<p><a href="https://github.com/devxd-hub">GitHub</a></p>
+</td>
+<td width="36%" valign="middle" align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/portrait?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&color=1&v=recruiter-portrait-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/portrait?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&color=1&v=recruiter-portrait-1&mode=dark" width="240px" alt="devxd-hub animated colored ASCII portrait" />
+</picture>
+</td>
+</tr>
+</table>
 </div>
 
-<br/>
+<h2>What teams can evaluate quickly</h2>
 
-<table align="center" border="0">
+<table width="100%">
 <tr>
+<td width="33%" valign="top"><h3>Role fit</h3><p>Frontend or full-stack engineer · TypeScript · JavaScript · HTML</p></td>
+<td width="33%" valign="top"><h3>Public proof</h3><p>15 repositories · 3 stars</p></td>
+<td width="33%" valign="top"><h3>Momentum</h3><p>87 contributions · 18 active days</p></td>
+</tr>
+</table>
 
-<td width="38%" align="center" valign="middle">
+<p><sub>Building useful software and sharing the work in public.</sub></p>
 
-<img src="./lanyard.svg?v=1" alt="Abhinab Jena ID Badge" width="330"/>
+<h2>Proof at a glance</h2>
 
+<table width="100%">
+<tr>
+<td width="25%" align="center"><strong>15</strong><br /><sub>Repositories</sub></td>
+<td width="25%" align="center"><strong>3</strong><br /><sub>Stars</sub></td>
+<td width="25%" align="center"><strong>87</strong><br /><sub>Contributions</sub></td>
+<td width="25%" align="center"><strong>5</strong><br /><sub>Followers</sub></td>
+</tr>
+</table>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&v=recruiter-stats-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stats?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&v=recruiter-stats-1&mode=dark" width="100%" alt="devxd-hub GitHub proof metrics" />
+</picture>
+</p>
+
+<h2>Selected work</h2>
+
+<table width="100%">
+<tr>
+<td width="58%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&repos=devxd-hub%2Fsamhita-fusion-test-1%2Cdevxd-hub%2FCheesypixels02%2Cdevxd-hub%2Fcampus-run-%2Cdevxd-hub%2Fcampus-run-coming-soon-&v=recruiter-projects-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/projects?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&repos=devxd-hub%2Fsamhita-fusion-test-1%2Cdevxd-hub%2FCheesypixels02%2Cdevxd-hub%2Fcampus-run-%2Cdevxd-hub%2Fcampus-run-coming-soon-&v=recruiter-projects-1&mode=dark" width="100%" alt="devxd-hub selected projects" />
+</picture>
 </td>
-
-<td width="62%" valign="middle">
-
-# 🚀 Featured Projects
-
-| 🌌 Project | ⚙️ Tech Stack | ⭐ |
-|:---|:---:|:---:|
-| 🌞 Solar Flare Risk Prediction *(Coming Soon)* | `Python` `AI` `ML` | ⭐ |
-| 🔭 Adaptive Optics (SH-WFS) *(Coming Soon)* | `Python` `OpenCV` | ⭐ |
-| 🌍 Cascading Infrastructure Risk *(Coming Soon)* | `AI` `GIS` | ⭐ |
-| 🌊 River Protection Intelligence *(Coming Soon)* | `AI` `Blockchain` | ⭐ |
-| ⚛️ Samhita Fusion *(Coming Soon)* | `AI` `Healthcare` | ⭐ |
-
-<br/>
-
-> **"Building software that solves real-world problems. One commit at a time."**
-
+<td width="42%" valign="top">
+<h3><a href="https://github.com/devxd-hub/samhita-fusion-test-1">samhita-fusion-test-1</a></h3>
+<p>the bridge between the traditional and the modern day health care</p>
+<p><sub>TypeScript · ⭐ 2 · 🍴 0</sub></p>
+<p><a href="https://github.com/devxd-hub/samhita-fusion-test-1">Read the repository →</a></p>
 </td>
 </tr>
 </table>
 
-<br/>
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3><a href="https://github.com/devxd-hub/Cheesypixels02">Cheesypixels02</a></h3><p>A selected public project.</p><p><sub>TypeScript · ⭐ 1</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/devxd-hub/campus-run-">campus-run-</a></h3><p>interative mobile game of nexus</p><p><sub>TypeScript · ⭐ 0</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/devxd-hub/campus-run-coming-soon-">campus-run-coming-soon-</a></h3><p>loading page</p><p><sub>TypeScript · ⭐ 0</sub></p></td>
+</tr>
+</table>
 
-<div align="center">
+<h2>Technical toolkit</h2>
 
-# 📊 GitHub Analytics
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&v=recruiter-stack-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stack?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&v=recruiter-stack-1&mode=dark" width="100%" alt="devxd-hub technology stack" />
+</picture>
+</p>
 
-<img src="./stats.svg?v=1" height="185"/>
-<img src="./langs.svg?v=1" height="185"/>
+<table width="100%">
+<tr>
+<td width="20%" align="center"><strong>TypeScript</strong><br /><sub>67% of public code</sub></td>
+<td width="20%" align="center"><strong>JavaScript</strong><br /><sub>28% of public code</sub></td>
+<td width="20%" align="center"><strong>HTML</strong><br /><sub>4% of public code</sub></td>
+<td width="20%" align="center"><strong>CSS</strong><br /><sub>1% of public code</sub></td>
+<td width="20%" align="center"><strong>PLpgSQL</strong><br /><sub>0% of public code</sub></td>
+</tr>
+</table>
 
-<br/><br/>
+<h2>Consistency signal</h2>
 
-<img src="https://streak-stats.demolab.com?user=devxd-hub&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=79C0FF&currStreakLabel=58A6FF"/>
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&v=recruiter-heatmap-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=devxd-hub&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F217695608%3Fv%3D4&v=recruiter-heatmap-1&mode=dark" width="100%" alt="devxd-hub contribution activity" />
+</picture>
+</p>
 
-<br/><br/>
+<hr />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=devxd-hub&bg_color=0D1117&color=58A6FF&line=79C0FF&point=C9D1D9&area=true&hide_border=true&custom_title=Contribution%20Graph"/>
+<table width="100%">
+<tr>
+<td width="62%" valign="middle"><h2>Let’s talk about the next build</h2><p>Open to thoughtful teams, ambitious products, and useful engineering work.</p></td>
+<td width="38%" valign="middle" align="right"><a href="https://github.com/devxd-hub">GitHub</a></td>
+</tr>
+</table>
 
-<br/><br/>
-
-<img src="./trophies.svg?v=1" width="95%"/>
-
-<br/><br/>
-
-# 🐍 Contribution Snake
-
-<img src="https://raw.githubusercontent.com/devxd-hub/devxd-hub/output/github-snake.svg"/>
-
-<br/><br/>
-
-# 💻 Tech Stack
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,express,mongodb,firebase,python,opencv,tensorflow,git,github,figma,vscode"/>
-
-<br/><br/>
-
-# 🌐 Connect With Me
-
-<a href="mailto:abhinabjena108@gmail.com">
-<img src="https://img.shields.io/badge/Email-0A66C2?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/devxd-hub">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/abhinab-jena-1250a3271">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://devxd-hub.github.io">
-<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=devxd-hub&style=for-the-badge&color=0A66C2&label=PROFILE+VIEWS"/>
-
-<br/><br/>
-
-### 🚀 Full Stack Developer • Space Technology Enthusiast • AI Builder
-
-*"Keep Coding. Keep Growing."*
-
-</div>
+<p align="center"><sub>devxd-hub · recruiter-ready profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
