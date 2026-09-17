@@ -1,72 +1,379 @@
 <div align="center">
 
 <!-- =========================================================
-     HERO
+     TOP TERMINAL BAR
 ========================================================= -->
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./banner.svg?v=6"
-  />
+<table
+  width="100%"
+  border="0"
+  cellspacing="0"
+  cellpadding="6"
+>
+<tr>
 
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./banner-light.svg?v=6"
-  />
+<td align="left">
+<code>●</code>
+<code>●</code>
+<code>●</code>
+&nbsp;&nbsp;
+<code>devxd@github:~</code>
+</td>
 
-  <img
-    src="./banner.svg?v=6"
-    alt="Abhinab Jena — Full Stack Developer"
-    width="100%"
-  />
-</picture>
+<td align="right">
+<code>| Building a better tomorrow... |</code>
+</td>
+
+</tr>
+</table>
 
 <br/>
 
 <!-- =========================================================
-     COMPACT MAIN PROFILE
+     MAIN TERMINAL INTERFACE
 ========================================================= -->
 
 <table
-  width="94%"
-  align="center"
+  width="96%"
   border="1"
   cellspacing="0"
-  cellpadding="0"
+  cellpadding="12"
 >
-
 <tr>
 
 <!-- =========================================================
-     LEFT — ASCII
+     LEFT SIDE — ASCII PORTRAIT
 ========================================================= -->
 
 <td
-  width="45%"
+  width="62%"
   valign="top"
   align="center"
 >
 
+<h3 align="left">
+
+<code>&gt; ./draw_profile.sh</code>
+
+</h3>
+
+<br/>
+
+<!-- STATIC ASCII PORTRAIT -->
+
 <img
-  src="./assets/abhinab-ascii-poster.png?v=6"
-  alt="Abhinab Jena ASCII Portrait"
-  width="88%"
+  src="./assets/abhinab-ascii-poster.png"
+  alt="Abhinab Jena ASCII portrait"
+  width="92%"
 />
+
+<br/><br/>
+
+<!-- DRAW STATUS PANEL -->
+
+<table
+  width="94%"
+  border="1"
+  cellspacing="0"
+  cellpadding="8"
+>
+
+<tr>
+
+<td width="62%" valign="top">
+
+<pre>
+<span>[OK]</span> Initializing canvas...
+<span>[OK]</span> Loading facial features...
+<span>[OK]</span> Drawing outline..........
+<span>[OK]</span> Adding hair..............
+<span>[OK]</span> Generating glasses.......
+<span>[OK]</span> Rendering eyes...........
+<span>[OK]</span> Finalizing details.......
+<span>[OK]</span> Portrait complete!
+</pre>
+
+</td>
+
+<td width="38%" valign="top">
+
+<pre>
+100%
+
+████████████████
+</pre>
+
+<br/>
+
+<pre>
+# DEVXD
+# ABHINAB JENA
+# V1.0
+</pre>
+
+</td>
+
+</tr>
+
+</table>
 
 </td>
 
 
 <!-- =========================================================
-     RIGHT — INFORMATION
+     RIGHT SIDE — TERMINAL PROFILE
 ========================================================= -->
 
 <td
-  width="55%"
+  width="38%"
   valign="top"
 >
 
-<!-- WHOAMI -->
+<h3>
+
+<code>&gt;_ whoami</code>
+
+</h3>
+
+<br/>
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="12"
+>
+
+<tr>
+
+<td>
+
+<h2>
+
+<code>ABHINAB JENA</code>
+
+</h2>
+
+<code>FULL STACK DEVELOPER</code>
+
+<br/>
+
+<code>SPACE TECHNOLOGY ENTHUSIAST</code>
+
+<br/>
+
+<code>AI BUILDER</code>
+
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+
+<!-- PROFILE INFO -->
+
+<table
+  width="100%"
+  border="0"
+  cellspacing="0"
+  cellpadding="7"
+>
+
+<tr>
+<td>⌖</td>
+<td><code>Bhubaneswar, India</code></td>
+</tr>
+
+<tr>
+<td>⌘</td>
+<td><code>CSE (AI/ML)</code></td>
+</tr>
+
+<tr>
+<td>&gt;_</td>
+<td><code>Building real-world solutions</code></td>
+</tr>
+
+<tr>
+<td>♥</td>
+<td><code>Space | AI | Web | Innovation</code></td>
+</tr>
+
+</table>
+
+<br/>
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<h3>
+
+<code>&gt;_ skills --core</code>
+
+</h3>
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="10"
+>
+
+<tr>
+<td>
+
+<code>
+Frontend&nbsp;&nbsp;: React, Next.js, TS
+</code>
+
+<br/><br/>
+
+<code>
+Backend&nbsp;&nbsp;&nbsp;: Node.js, Express
+</code>
+
+<br/><br/>
+
+<code>
+AI/ML&nbsp;&nbsp;&nbsp;&nbsp;: Python, OpenCV
+</code>
+
+<br/><br/>
+
+<code>
+Database&nbsp;&nbsp;: MongoDB, Firebase
+</code>
+
+<br/><br/>
+
+<code>
+Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Git, Docker, Figma
+</code>
+
+</td>
+</tr>
+
+</table>
+
+<br/>
+
+
+<!-- =========================================================
+     CURRENTLY
+========================================================= -->
+
+<h3>
+
+<code>&gt;_ currently</code>
+
+</h3>
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="10"
+>
+
+<tr>
+<td>
+
+<code>◇ Building innovative projects</code>
+
+<br/><br/>
+
+<code>◇ Learning new technologies</code>
+
+<br/><br/>
+
+<code>◇ Exploring Space Tech &amp; AI</code>
+
+<br/><br/>
+
+<code>◇ Turning ideas into impact</code>
+
+</td>
+</tr>
+
+</table>
+
+<br/>
+
+
+<!-- =========================================================
+     CONNECT
+========================================================= -->
+
+<h3>
+
+<code>&gt;_ connect</code>
+
+</h3>
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="9"
+>
+
+<tr>
+<td>
+
+<a href="https://github.com/devxd-hub">
+
+<img
+src="https://img.shields.io/badge/GitHub-devxd--hub-111827?style=flat-square&logo=github&logoColor=white"
+/>
+
+</a>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/abhinab-jena-1250a3271">
+
+<img
+src="https://img.shields.io/badge/LinkedIn-abhinab--jena-111827?style=flat-square&logo=linkedin&logoColor=0A66C2"
+/>
+
+</a>
+
+<br/><br/>
+
+<a href="mailto:abhinabjena108@gmail.com">
+
+<img
+src="https://img.shields.io/badge/Email-abhinabjena108%40gmail.com-111827?style=flat-square&logo=gmail&logoColor=EA4335"
+/>
+
+</a>
+
+<br/><br/>
+
+<a href="https://devxd-hub.github.io">
+
+<img
+src="https://img.shields.io/badge/Portfolio-devxd--hub.github.io-111827?style=flat-square&logo=googlechrome&logoColor=white"
+/>
+
+</a>
+
+</td>
+</tr>
+
+</table>
+
+<br/>
+
+
+<!-- =========================================================
+     QUOTE
+========================================================= -->
 
 <table
   width="100%"
@@ -76,170 +383,19 @@
 >
 
 <tr>
-<td>
 
-<h2><code>&gt;_ whoami</code></h2>
-
-<pre>
-ABHINAB JENA
-
-FULL STACK DEVELOPER
-SPACE TECHNOLOGY ENTHUSIAST
-AI BUILDER
-</pre>
-
-</td>
-</tr>
-
-</table>
-
-
-<!-- QUICK INFO -->
-
-<table
-  width="100%"
-  border="1"
-  cellspacing="0"
-  cellpadding="8"
->
-
-<tr>
-
-<td width="50%">
-
-<code>⌖ LOCATION</code><br/>
-<sub>Bhubaneswar, India</sub>
-
-</td>
-
-<td width="50%">
-
-<code>⌘ DOMAIN</code><br/>
-<sub>CSE (AI/ML)</sub>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<code>&gt;_ BUILDING</code><br/>
-<sub>Real-world systems</sub>
-
-</td>
-
-<td>
-
-<code>♥ INTERESTS</code><br/>
-<sub>Space • AI • Web</sub>
-
-</td>
-
-</tr>
-
-</table>
-
-
-<!-- SKILLS -->
-
-<table
-  width="100%"
-  border="1"
-  cellspacing="0"
-  cellpadding="8"
->
-
-<tr>
-<td>
-
-<h3><code>&gt;_ skills --core</code></h3>
-
-<pre>
-Frontend : React • Next.js • TypeScript
-Backend  : Node.js • Express
-AI / ML  : Python • OpenCV • TensorFlow
-Database : MongoDB • Firebase
-Tools    : Git • Docker • Figma
-</pre>
-
-</td>
-</tr>
-
-</table>
-
-
-<!-- CURRENTLY -->
-
-<table
-  width="100%"
-  border="1"
-  cellspacing="0"
-  cellpadding="8"
->
-
-<tr>
-<td>
-
-<h3><code>&gt;_ currently</code></h3>
-
-<code>◇ Building innovative projects</code><br/>
-<code>◇ Learning new technologies</code><br/>
-<code>◇ Exploring Space Tech + AI</code><br/>
-<code>◇ Turning ideas into impact</code>
-
-</td>
-</tr>
-
-</table>
-
-
-<!-- CONNECT -->
-
-<table
-  width="100%"
-  border="1"
-  cellspacing="0"
-  cellpadding="8"
->
-
-<tr>
-<td>
-
-<h3><code>&gt;_ connect</code></h3>
-
-<a href="https://github.com/devxd-hub">
-<img src="https://img.shields.io/badge/GitHub-devxd--hub-111827?style=flat-square&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/abhinab-jena-1250a3271">
-<img src="https://img.shields.io/badge/LinkedIn-Abhinab--Jena-111827?style=flat-square&logo=linkedin&logoColor=0A66C2"/>
-</a>
-
-<a href="mailto:abhinabjena108@gmail.com">
-<img src="https://img.shields.io/badge/Email-abhinabjena108-111827?style=flat-square&logo=gmail&logoColor=EA4335"/>
-</a>
-
-<a href="https://devxd-hub.github.io">
-<img src="https://img.shields.io/badge/Portfolio-devxd--hub-111827?style=flat-square&logo=googlechrome&logoColor=white"/>
-</a>
-
-</td>
-</tr>
-
-</table>
-
-
-<!-- QUOTE -->
+<td align="left">
 
 <blockquote>
 
-<code>"Building software that solves real-world problems."</code>
+<code>
+"Building software that solves real-world problems.
+One commit at a time."
+</code>
 
-<br/>
+<br/><br/>
 
-<sub>— Abhinab Jena</sub>
+<code>— Abhinab Jena</code>
 
 </blockquote>
 
@@ -249,137 +405,151 @@ Tools    : Git • Docker • Figma
 
 </table>
 
+</td>
+
+</tr>
+</table>
+
+<br/>
 
 <!-- =========================================================
-     SMALL TERMINAL FOOTER
+     BOTTOM COMMAND BAR
 ========================================================= -->
 
 <table
-  width="94%"
-  align="center"
+  width="100%"
   border="0"
   cellspacing="0"
-  cellpadding="5"
+  cellpadding="7"
 >
 
 <tr>
 
 <td align="left">
-<code>&gt; CODE | BUILD | LEARN | EXPLORE | REPEAT</code>
+
+<code>&gt;</code>
+&nbsp;&nbsp;
+<code>CODE</code>
+&nbsp;&nbsp;|
+&nbsp;&nbsp;
+<code>BUILD</code>
+&nbsp;&nbsp;|
+&nbsp;&nbsp;
+<code>LEARN</code>
+&nbsp;&nbsp;|
+&nbsp;&nbsp;
+<code>EXPLORE</code>
+&nbsp;&nbsp;|
+&nbsp;&nbsp;
+<code>REPEAT</code>
+&nbsp;&nbsp;|
+
 </td>
 
 <td align="right">
-<code>██████░░░░</code>
+
+<code>████░░░░</code>
+&nbsp;&nbsp;
+<code>better things ahead...</code>
+
 </td>
 
 </tr>
 
 </table>
 
-</div>
+<br/>
 
 <!-- =========================================================
      GITHUB ANALYTICS
 ========================================================= -->
 
-<div align="center">
-
-# 📊 GitHub Analytics
-
-<img
-  src="./stats.svg?v=6"
-  height="180"
-  alt="GitHub Statistics"
-/>
-
-<img
-  src="./langs.svg?v=6"
-  height="180"
-  alt="Top Languages"
-/>
+<h1>📊 GitHub Analytics</h1>
 
 <br/>
 
 <img
-  src="https://streak-stats.demolab.com?user=devxd-hub&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=79C0FF&currStreakLabel=58A6FF"
-  alt="GitHub Streak"
+src="./stats.svg?v=4"
+height="185"
+alt="GitHub Statistics"
 />
-
-<br/>
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=devxd-hub&bg_color=0D1117&color=58A6FF&line=79C0FF&point=C9D1D9&area=true&hide_border=true&custom_title=Contribution%20Graph"
-  width="94%"
-  alt="GitHub Contribution Graph"
+src="./langs.svg?v=4"
+height="185"
+alt="Top Languages"
 />
 
-<br/>
+<br/><br/>
 
 <img
-  src="./trophies.svg?v=6"
-  width="94%"
-  alt="GitHub Trophies"
+src="https://streak-stats.demolab.com?user=devxd-hub&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=79C0FF&currStreakLabel=58A6FF"
+alt="GitHub Streak"
 />
 
-<br/>
-
-# 🐍 Contribution Snake
+<br/><br/>
 
 <img
-  src="https://raw.githubusercontent.com/devxd-hub/devxd-hub/output/github-snake.svg"
-  width="88%"
-  alt="GitHub Contribution Snake"
+src="https://github-readme-activity-graph.vercel.app/graph?username=devxd-hub&bg_color=0D1117&color=58A6FF&line=79C0FF&point=C9D1D9&area=true&hide_border=true&custom_title=Contribution%20Graph"
+width="95%"
+alt="GitHub Contribution Graph"
 />
 
-<br/>
-
-# 💻 Tech Stack
+<br/><br/>
 
 <img
-  src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,express,mongodb,firebase,python,opencv,tensorflow,git,github,figma,vscode"
-  alt="Technology Stack"
+src="./trophies.svg?v=4"
+width="95%"
+alt="GitHub Trophies"
 />
 
-<br/>
+<br/><br/>
 
-# 🌐 Connect With Me
+<!-- =========================================================
+     CONTRIBUTION SNAKE
+========================================================= -->
 
-<a href="mailto:abhinabjena108@gmail.com">
+<h1>🐍 Contribution Snake</h1>
+
 <img
-  src="https://img.shields.io/badge/Email-0A66C2?style=for-the-badge&logo=gmail&logoColor=white"
+src="https://raw.githubusercontent.com/devxd-hub/devxd-hub/output/github-snake.svg"
+width="90%"
+alt="GitHub Contribution Snake"
 />
-</a>
 
-<a href="https://github.com/devxd-hub">
+<br/><br/>
+
+<!-- =========================================================
+     TECH STACK
+========================================================= -->
+
+<h1>💻 Tech Stack</h1>
+
 <img
-  src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,express,mongodb,firebase,python,opencv,tensorflow,git,github,figma,vscode"
+alt="Technology Stack"
 />
-</a>
 
-<a href="https://www.linkedin.com/in/abhinab-jena-1250a3271">
-<img
-  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-/>
-</a>
+<br/><br/>
 
-<a href="https://devxd-hub.github.io">
-<img
-  src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"
-/>
-</a>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
 
-<br/>
+<h2>
+
+🚀 Full Stack Developer • Space Technology Enthusiast • AI Builder
+
+</h2>
+
+<i>"Keep Coding. Keep Growing."</i>
+
+<br/><br/>
 
 <img
   src="./assets/abhinab-ascii-poster.png"
   alt="Abhinab Jena ASCII portrait"
   width="92%"
 />
-
-<br/>
-
-### 🚀 Full Stack Developer • Space Technology Enthusiast • AI Builder
-
-<i>"Keep Coding. Keep Growing."</i>
 
 </div>
