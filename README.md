@@ -371,7 +371,9 @@ Tools    : Git • Docker • Figma
 <br/>
 
 <img
-  src="https://komarev.com/ghpvc/?username=devxd-hub&style=for-the-badge&color=0A66C2&label=PROFILE+VIEWS"
+  src="./assets/abhinab-ascii-poster.png"
+  alt="Abhinab Jena ASCII portrait"
+  width="92%"
 />
 
 <br/>
