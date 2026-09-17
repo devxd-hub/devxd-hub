@@ -1,141 +1,73 @@
 <div align="center">
 
 <!-- =========================================================
-     TOP TERMINAL BAR
+     HERO
+========================================================= -->
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./banner.svg?v=5"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./banner-light.svg?v=5"
+  />
+
+  <img
+    src="./banner.svg?v=5"
+    alt="Abhinab Jena — Full Stack Developer"
+    width="100%"
+  />
+</picture>
+
+<br/><br/>
+
+<!-- =========================================================
+     MAIN TERMINAL / PROFILE
 ========================================================= -->
 
 <table
   width="100%"
-  border="0"
-  cellspacing="0"
-  cellpadding="6"
->
-<tr>
-
-<td align="left">
-<code>●</code>
-<code>●</code>
-<code>●</code>
-&nbsp;&nbsp;
-<code>devxd@github:~</code>
-</td>
-
-<td align="right">
-<code>| Building a better tomorrow... |</code>
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<!-- =========================================================
-     MAIN TERMINAL INTERFACE
-========================================================= -->
-
-<table
-  width="96%"
   border="1"
   cellspacing="0"
-  cellpadding="12"
+  cellpadding="0"
+  align="center"
 >
+
 <tr>
 
 <!-- =========================================================
-     LEFT SIDE — ASCII PORTRAIT
+     LEFT COLUMN
+     STATIC ASCII POSTER
 ========================================================= -->
 
 <td
-  width="62%"
+  width="48%"
   valign="top"
   align="center"
 >
 
-<h3 align="left">
-
-<code>&gt; ./draw_profile.sh</code>
-
-</h3>
-
-<br/>
-
-<!-- STATIC ASCII PORTRAIT -->
-
 <img
-  src="./assets/abhinab-ascii-poster.png"
-  alt="Abhinab Jena ASCII portrait"
-  width="92%"
+  src="./assets/abhinab-ascii-poster.png?v=5"
+  alt="Abhinab Jena ASCII Developer Poster"
+  width="100%"
 />
-
-<br/><br/>
-
-<!-- DRAW STATUS PANEL -->
-
-<table
-  width="94%"
-  border="1"
-  cellspacing="0"
-  cellpadding="8"
->
-
-<tr>
-
-<td width="62%" valign="top">
-
-<pre>
-<span>[OK]</span> Initializing canvas...
-<span>[OK]</span> Loading facial features...
-<span>[OK]</span> Drawing outline..........
-<span>[OK]</span> Adding hair..............
-<span>[OK]</span> Generating glasses.......
-<span>[OK]</span> Rendering eyes...........
-<span>[OK]</span> Finalizing details.......
-<span>[OK]</span> Portrait complete!
-</pre>
-
-</td>
-
-<td width="38%" valign="top">
-
-<pre>
-100%
-
-████████████████
-</pre>
-
-<br/>
-
-<pre>
-# DEVXD
-# ABHINAB JENA
-# V1.0
-</pre>
-
-</td>
-
-</tr>
-
-</table>
 
 </td>
 
 
 <!-- =========================================================
-     RIGHT SIDE — TERMINAL PROFILE
+     RIGHT COLUMN
 ========================================================= -->
 
 <td
-  width="38%"
+  width="52%"
   valign="top"
+  align="left"
 >
 
-<h3>
-
-<code>&gt;_ whoami</code>
-
-</h3>
-
-<br/>
+<!-- ================= WHOAMI ================= -->
 
 <table
   width="100%"
@@ -149,20 +81,18 @@
 <td>
 
 <h2>
-
-<code>ABHINAB JENA</code>
-
+<code>&gt;_ whoami</code>
 </h2>
 
-<code>FULL STACK DEVELOPER</code>
-
 <br/>
 
-<code>SPACE TECHNOLOGY ENTHUSIAST</code>
+<pre>
+ABHINAB JENA
 
-<br/>
-
-<code>AI BUILDER</code>
+FULL STACK DEVELOPER
+SPACE TECHNOLOGY ENTHUSIAST
+AI BUILDER
+</pre>
 
 </td>
 
@@ -173,33 +103,61 @@
 <br/>
 
 
-<!-- PROFILE INFO -->
+<!-- ================= QUICK INFO ================= -->
 
 <table
   width="100%"
-  border="0"
+  border="1"
   cellspacing="0"
-  cellpadding="7"
+  cellpadding="10"
 >
 
 <tr>
-<td>⌖</td>
-<td><code>Bhubaneswar, India</code></td>
+
+<td width="50%">
+
+<code>⌖ LOCATION</code>
+
+<br/>
+
+<code>Bhubaneswar, India</code>
+
+</td>
+
+<td width="50%">
+
+<code>⌘ DOMAIN</code>
+
+<br/>
+
+<code>CSE (AI/ML)</code>
+
+</td>
+
 </tr>
 
 <tr>
-<td>⌘</td>
-<td><code>CSE (AI/ML)</code></td>
-</tr>
 
-<tr>
-<td>&gt;_</td>
-<td><code>Building real-world solutions</code></td>
-</tr>
+<td>
 
-<tr>
-<td>♥</td>
-<td><code>Space | AI | Web | Innovation</code></td>
+<code>&gt;_ BUILDING</code>
+
+<br/>
+
+<code>Real-world systems</code>
+
+</td>
+
+<td>
+
+<code>♥ INTERESTS</code>
+
+<br/>
+
+<code>Space • AI • Web</code>
+
+</td>
+
 </tr>
 
 </table>
@@ -207,55 +165,76 @@
 <br/>
 
 
-<!-- =========================================================
-     SKILLS
-========================================================= -->
+<!-- ================= SKILLS ================= -->
 
-<h3>
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="12"
+>
 
+<tr>
+
+<td>
+
+<h2>
 <code>&gt;_ skills --core</code>
+</h2>
 
-</h3>
+<br/>
 
-<table
-  width="100%"
-  border="1"
-  cellspacing="0"
-  cellpadding="10"
->
+<table width="100%" border="0" cellspacing="0" cellpadding="6">
+
+<tr>
+<td width="30%">
+<code>Frontend</code>
+</td>
+<td>
+<code>React • Next.js • TypeScript • JavaScript</code>
+</td>
+</tr>
 
 <tr>
 <td>
+<code>Backend</code>
+</td>
+<td>
+<code>Node.js • Express</code>
+</td>
+</tr>
 
-<code>
-Frontend&nbsp;&nbsp;: React, Next.js, TS
-</code>
+<tr>
+<td>
+<code>AI / ML</code>
+</td>
+<td>
+<code>Python • OpenCV • TensorFlow</code>
+</td>
+</tr>
 
-<br/><br/>
+<tr>
+<td>
+<code>Database</code>
+</td>
+<td>
+<code>MongoDB • Firebase</code>
+</td>
+</tr>
 
-<code>
-Backend&nbsp;&nbsp;&nbsp;: Node.js, Express
-</code>
+<tr>
+<td>
+<code>Tools</code>
+</td>
+<td>
+<code>Git • GitHub • Docker • Figma</code>
+</td>
+</tr>
 
-<br/><br/>
-
-<code>
-AI/ML&nbsp;&nbsp;&nbsp;&nbsp;: Python, OpenCV
-</code>
-
-<br/><br/>
-
-<code>
-Database&nbsp;&nbsp;: MongoDB, Firebase
-</code>
-
-<br/><br/>
-
-<code>
-Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Git, Docker, Figma
-</code>
+</table>
 
 </td>
+
 </tr>
 
 </table>
@@ -263,25 +242,24 @@ Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Git, Docker, Figma
 <br/>
 
 
-<!-- =========================================================
-     CURRENTLY
-========================================================= -->
-
-<h3>
-
-<code>&gt;_ currently</code>
-
-</h3>
+<!-- ================= CURRENTLY ================= -->
 
 <table
   width="100%"
   border="1"
   cellspacing="0"
-  cellpadding="10"
+  cellpadding="12"
 >
 
 <tr>
+
 <td>
+
+<h2>
+<code>&gt;_ currently</code>
+</h2>
+
+<br/>
 
 <code>◇ Building innovative projects</code>
 
@@ -291,13 +269,14 @@ Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Git, Docker, Figma
 
 <br/><br/>
 
-<code>◇ Exploring Space Tech &amp; AI</code>
+<code>◇ Exploring Space Tech + AI</code>
 
 <br/><br/>
 
 <code>◇ Turning ideas into impact</code>
 
 </td>
+
 </tr>
 
 </table>
@@ -305,86 +284,319 @@ Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Git, Docker, Figma
 <br/>
 
 
-<!-- =========================================================
-     CONNECT
-========================================================= -->
-
-<h3>
-
-<code>&gt;_ connect</code>
-
-</h3>
+<!-- ================= FEATURED PROJECTS ================= -->
 
 <table
   width="100%"
   border="1"
   cellspacing="0"
-  cellpadding="9"
+  cellpadding="12"
 >
 
 <tr>
+
 <td>
 
-<a href="https://github.com/devxd-hub">
+<h2>
+🚀 Featured Projects
+</h2>
 
-<img
-src="https://img.shields.io/badge/GitHub-devxd--hub-111827?style=flat-square&logo=github&logoColor=white"
-/>
-
-</a>
-
-<br/><br/>
-
-<a href="https://www.linkedin.com/in/abhinab-jena-1250a3271">
-
-<img
-src="https://img.shields.io/badge/LinkedIn-abhinab--jena-111827?style=flat-square&logo=linkedin&logoColor=0A66C2"
-/>
-
-</a>
+<sub>
+Selected systems, experiments &amp; concepts.
+</sub>
 
 <br/><br/>
 
-<a href="mailto:abhinabjena108@gmail.com">
 
-<img
-src="https://img.shields.io/badge/Email-abhinabjena108%40gmail.com-111827?style=flat-square&logo=gmail&logoColor=EA4335"
-/>
-
-</a>
-
-<br/><br/>
-
-<a href="https://devxd-hub.github.io">
-
-<img
-src="https://img.shields.io/badge/Portfolio-devxd--hub.github.io-111827?style=flat-square&logo=googlechrome&logoColor=white"
-/>
-
-</a>
-
-</td>
-</tr>
-
-</table>
-
-<br/>
-
-
-<!-- =========================================================
-     QUOTE
-========================================================= -->
+<!-- PROJECT -->
 
 <table
   width="100%"
-  border="0"
+  border="1"
   cellspacing="0"
   cellpadding="8"
 >
 
 <tr>
 
-<td align="left">
+<td width="72%">
+
+<b>☀️ Solar Flare Risk Prediction</b>
+
+<br/>
+
+<sub>
+AI-driven satellite risk prediction
+</sub>
+
+<br/><br/>
+
+<code>Python</code>
+<code>AI</code>
+<code>ML</code>
+
+</td>
+
+<td width="28%" align="center">
+
+<code>SOON</code>
+
+<br/><br/>
+
+⭐
+
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="8"
+>
+
+<tr>
+
+<td width="72%">
+
+<b>🔭 Adaptive Optics (SH-WFS)</b>
+
+<br/>
+
+<sub>
+Computer vision + wavefront sensing
+</sub>
+
+<br/><br/>
+
+<code>Python</code>
+<code>OpenCV</code>
+
+</td>
+
+<td width="28%" align="center">
+
+<code>SOON</code>
+
+<br/><br/>
+
+⭐
+
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="8"
+>
+
+<tr>
+
+<td width="72%">
+
+<b>🌍 Cascading Infrastructure Risk</b>
+
+<br/>
+
+<sub>
+AI + GIS infrastructure analysis
+</sub>
+
+<br/><br/>
+
+<code>AI</code>
+<code>GIS</code>
+
+</td>
+
+<td width="28%" align="center">
+
+<code>SOON</code>
+
+<br/><br/>
+
+⭐
+
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="8"
+>
+
+<tr>
+
+<td width="72%">
+
+<b>🌊 River Protection Intelligence</b>
+
+<br/>
+
+<sub>
+AI-driven environmental intelligence
+</sub>
+
+<br/><br/>
+
+<code>AI</code>
+<code>Blockchain</code>
+
+</td>
+
+<td width="28%" align="center">
+
+<code>SOON</code>
+
+<br/><br/>
+
+⭐
+
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="8"
+>
+
+<tr>
+
+<td width="72%">
+
+<b>⚛️ Samhita Fusion</b>
+
+<br/>
+
+<sub>
+AI-powered healthcare intelligence
+</sub>
+
+<br/><br/>
+
+<code>AI</code>
+<code>Healthcare</code>
+
+</td>
+
+<td width="28%" align="center">
+
+<code>SOON</code>
+
+<br/><br/>
+
+⭐
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+
+<!-- ================= CONNECT ================= -->
+
+<table
+  width="100%"
+  border="1"
+  cellspacing="0"
+  cellpadding="12"
+>
+
+<tr>
+
+<td>
+
+<h2>
+<code>&gt;_ connect</code>
+</h2>
+
+<br/>
+
+<a href="https://github.com/devxd-hub">
+<img
+  src="https://img.shields.io/badge/GitHub-devxd--hub-111827?style=flat-square&logo=github&logoColor=white"
+/>
+</a>
+
+&nbsp;
+
+<a href="https://www.linkedin.com/in/abhinab-jena-1250a3271">
+<img
+  src="https://img.shields.io/badge/LinkedIn-Abhinab%20Jena-111827?style=flat-square&logo=linkedin&logoColor=0A66C2"
+/>
+</a>
+
+&nbsp;
+
+<a href="mailto:abhinabjena108@gmail.com">
+<img
+  src="https://img.shields.io/badge/Email-abhinabjena108%40gmail.com-111827?style=flat-square&logo=gmail&logoColor=EA4335"
+/>
+</a>
+
+&nbsp;
+
+<a href="https://devxd-hub.github.io">
+<img
+  src="https://img.shields.io/badge/Portfolio-devxd--hub.github.io-111827?style=flat-square&logo=googlechrome&logoColor=white"
+/>
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+
+<!-- ================= QUOTE ================= -->
+
+<table width="100%" border="0">
+
+<tr>
+
+<td align="center">
 
 <blockquote>
 
@@ -408,19 +620,21 @@ One commit at a time."
 </td>
 
 </tr>
+
 </table>
 
 <br/>
 
+
 <!-- =========================================================
-     BOTTOM COMMAND BAR
+     TERMINAL FOOTER BAR
 ========================================================= -->
 
 <table
   width="100%"
   border="0"
   cellspacing="0"
-  cellpadding="7"
+  cellpadding="8"
 >
 
 <tr>
@@ -428,28 +642,27 @@ One commit at a time."
 <td align="left">
 
 <code>&gt;</code>
-&nbsp;&nbsp;
+&nbsp;
 <code>CODE</code>
-&nbsp;&nbsp;|
-&nbsp;&nbsp;
+&nbsp; |
+&nbsp;
 <code>BUILD</code>
-&nbsp;&nbsp;|
-&nbsp;&nbsp;
+&nbsp; |
+&nbsp;
 <code>LEARN</code>
-&nbsp;&nbsp;|
-&nbsp;&nbsp;
+&nbsp; |
+&nbsp;
 <code>EXPLORE</code>
-&nbsp;&nbsp;|
-&nbsp;&nbsp;
+&nbsp; |
+&nbsp;
 <code>REPEAT</code>
-&nbsp;&nbsp;|
 
 </td>
 
 <td align="right">
 
-<code>████░░░░</code>
-&nbsp;&nbsp;
+<code>██████░░░░</code>
+&nbsp;
 <code>better things ahead...</code>
 
 </td>
@@ -458,100 +671,111 @@ One commit at a time."
 
 </table>
 
+</div>
+
+<br/>
 <br/>
 
 <!-- =========================================================
      GITHUB ANALYTICS
 ========================================================= -->
 
-<h1>📊 GitHub Analytics</h1>
+<div align="center">
 
-<br/>
+# 📊 GitHub Analytics
 
 <img
-src="./stats.svg?v=4"
-height="185"
-alt="GitHub Statistics"
+  src="./stats.svg?v=5"
+  height="185"
+  alt="GitHub Statistics"
 />
 
 <img
-src="./langs.svg?v=4"
-height="185"
-alt="Top Languages"
-/>
-
-<br/><br/>
-
-<img
-src="https://streak-stats.demolab.com?user=devxd-hub&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=79C0FF&currStreakLabel=58A6FF"
-alt="GitHub Streak"
+  src="./langs.svg?v=5"
+  height="185"
+  alt="Top Languages"
 />
 
 <br/><br/>
 
 <img
-src="https://github-readme-activity-graph.vercel.app/graph?username=devxd-hub&bg_color=0D1117&color=58A6FF&line=79C0FF&point=C9D1D9&area=true&hide_border=true&custom_title=Contribution%20Graph"
-width="95%"
-alt="GitHub Contribution Graph"
+  src="https://streak-stats.demolab.com?user=devxd-hub&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=79C0FF&currStreakLabel=58A6FF"
+  alt="GitHub Streak"
 />
 
 <br/><br/>
 
 <img
-src="./trophies.svg?v=4"
-width="95%"
-alt="GitHub Trophies"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=devxd-hub&bg_color=0D1117&color=58A6FF&line=79C0FF&point=C9D1D9&area=true&hide_border=true&custom_title=Contribution%20Graph"
+  width="95%"
+  alt="GitHub Contribution Graph"
 />
 
 <br/><br/>
-
-<!-- =========================================================
-     CONTRIBUTION SNAKE
-========================================================= -->
-
-<h1>🐍 Contribution Snake</h1>
 
 <img
-src="https://raw.githubusercontent.com/devxd-hub/devxd-hub/output/github-snake.svg"
-width="90%"
-alt="GitHub Contribution Snake"
+  src="./trophies.svg?v=5"
+  width="95%"
+  alt="GitHub Trophies"
 />
 
 <br/><br/>
 
-<!-- =========================================================
-     TECH STACK
-========================================================= -->
-
-<h1>💻 Tech Stack</h1>
+# 🐍 Contribution Snake
 
 <img
-src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,express,mongodb,firebase,python,opencv,tensorflow,git,github,figma,vscode"
-alt="Technology Stack"
+  src="https://raw.githubusercontent.com/devxd-hub/devxd-hub/output/github-snake.svg"
+  width="90%"
+  alt="GitHub Contribution Snake"
 />
 
 <br/><br/>
 
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
-<h2>
-
-🚀 Full Stack Developer • Space Technology Enthusiast • AI Builder
-
-</h2>
-
-<i>"Keep Coding. Keep Growing."</i>
-
-<br/><br/>
-
+# 💻 Tech Stack
 
 <img
-  src="./assets/abhinab-ascii-poster.png"
-  alt="Abhinab Jena ASCII portrait"
-  width="92%"
+  src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,express,mongodb,firebase,python,opencv,tensorflow,git,github,figma,vscode"
+  alt="Technology Stack"
 />
 
+<br/><br/>
+
+# 🌐 Connect With Me
+
+<a href="mailto:abhinabjena108@gmail.com">
+<img
+  src="https://img.shields.io/badge/Email-0A66C2?style=for-the-badge&logo=gmail&logoColor=white"
+/>
+</a>
+
+<a href="https://github.com/devxd-hub">
+<img
+  src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+/>
+</a>
+
+<a href="https://www.linkedin.com/in/abhinab-jena-1250a3271">
+<img
+  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+/>
+</a>
+
+<a href="https://devxd-hub.github.io">
+<img
+  src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"
+/>
+</a>
+
+<br/><br/>
+
+<img
+  src="https://komarev.com/ghpvc/?username=devxd-hub&style=for-the-badge&color=0A66C2&label=PROFILE+VIEWS"
+/>
+
+<br/><br/>
+
+### 🚀 Full Stack Developer • Space Technology Enthusiast • AI Builder
+
+*"Keep Coding. Keep Growing."*
 
 </div>
