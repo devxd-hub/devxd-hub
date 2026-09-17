@@ -546,9 +546,12 @@ alt="Technology Stack"
 
 <br/><br/>
 
+
 <img
-src="https://komarev.com/ghpvc/?username=devxd-hub&style=for-the-badge&color=0A66C2&label=PROFILE+VIEWS"
-alt="Profile Views"
+  src="./assets/abhinab-ascii-poster.png"
+  alt="Abhinab Jena ASCII portrait"
+  width="92%"
 />
+
 
 </div>
