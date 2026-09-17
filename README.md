@@ -44,7 +44,7 @@
 
 <br/><br/>
 
-```text
+
 > whoami
 
 ABHINAB JENA
@@ -254,4 +254,4 @@ Status: 🟡 Coming Soon
 
 "Keep Coding. Keep Growing."
 
-</div> ```
+</div> 
